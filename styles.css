@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: rgb(164, 179, 112);
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 618px; 
+    height: 618px;
+}
+
+.mole {
+    background-image: url('Mole.png');
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    background-color: wheat ;
+}
+
+h1, h2 {
+    color: white;
+}
